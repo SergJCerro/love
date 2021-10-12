@@ -296,7 +296,7 @@ function log() {
   var i = 0;
   var txt1 =
     "Aquí estaré, Cada día esperándote. < Imaginándome tus besos pero los desperdicias con él > Aquí estaré, Por las noches pensándote  <Tu corazón se siente preso y yo de eso te salvaré ";
-  var speed = 75;
+  var speed = 85;
   typeWriter();
   function typeWriter() {
     if (i < txt1.length) {

@@ -21,11 +21,11 @@
       .paper {
         background-color: #fff;
         box-shadow: -1px 3px 3px 3px #222;
-        font-size: 4rem;
+        font-size: 3rem;
         height: 350px;
-        max-width: 300px;
+        max-width: 290px;
         line-height: 1;
-        padding: 2.5rem 4rem;
+        padding: 2.5rem 1rem;
         position: relative;
         text-transform: uppercase;
         transform: rotate(7.5deg);
@@ -37,7 +37,7 @@
 
       }
       .paper p:after {
-        bottom: 50px;
+        bottom: 70px;
         color: #cb262e;
         content: "";
         font-family: fontAwesome;
