@@ -1,0 +1,57 @@
+ 
+      body {
+        /* background-size: cover; */
+        font-family: "Open Sans";
+        font-size: 16px;
+      }
+
+      .bottom,
+      .paper {
+        margin: 2rem auto;
+      }
+
+      .bottom {
+        background-color: #a4231f;
+        height: 450px;
+        max-width: 400px;
+        transform: rotate(-7.5deg);
+        width: 100%;
+      }
+
+      .paper {
+        background-color: #fff;
+        box-shadow: -1px 3px 3px 3px #222;
+        font-size: 4rem;
+        height: 350px;
+        max-width: 300px;
+        line-height: 1;
+        padding: 2.5rem 4rem;
+        position: relative;
+        text-transform: uppercase;
+        transform: rotate(7.5deg);
+        width: 100%;
+        z-index: 10px;
+      }
+      .paper p {
+        margin-top: 0;
+
+      }
+      .paper p:after {
+        bottom: 50px;
+        color: #cb262e;
+        content: "";
+        font-family: fontAwesome;
+        font-size: 1.3rem;
+        position: absolute;
+        right: 80px;
+      }
+
+      .highlight {
+        color: #cb262e;
+      }
+      .highlight:last-child {
+        display: block;
+      }
+      a {
+        text-decoration: none;
+      }
