@@ -33,10 +33,10 @@ uniform float time;
 #define POINT_COUNT 8
 
 vec2 points[POINT_COUNT];
-const float speed = -0.5;
-const float len = 0.25;
+const float speed = -0.9;
+const float len = 12.9;
 float intensity = 1.3;
-float radius = 0.008;
+float radius = 0.01;
 
 //https://www.shadertoy.com/view/MlKcDD
 //Signed distance to a quadratic bezier
@@ -103,7 +103,9 @@ vec2 getHeartPosition(float t){
               -(13.0 * cos(t) - 5.0 * cos(2.0*t)
               - 2.0 * cos(3.0*t) - cos(4.0*t)));
 }
-
+// vec2 getHeartPosition(float t){
+//   return vec2(a * cos(t), -(a * sin(t)));
+// }
 //https://www.shadertoy.com/view/3s3GDn
 float getGlow(float dist, float radius, float intensity){
   return pow(radius/dist, intensity);
